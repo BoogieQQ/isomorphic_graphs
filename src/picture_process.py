@@ -48,7 +48,7 @@ class PictureProcess:
 
         if totalLabels - 1 > 10:
             cls = 'II' if totalLabels - 1 <= 12 else 'III'
-            return wariki, cls
+            return output, cls
 
         counter = 0
         for i in range(1, totalLabels):
